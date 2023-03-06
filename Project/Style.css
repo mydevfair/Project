@@ -123,3 +123,10 @@ footer{
   flex-direction: column;
   text-align: center;
 }
+.footer-content p {
+  max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
