@@ -43,7 +43,6 @@ a:link, a:visited {
 a:hover {
     background-color:#01FF70;
 }
-
 li a, .dropbtn {
   display: inline-block;
   color: white;
@@ -59,7 +58,6 @@ li a:hover, .dropdown:hover .dropbtn {
 li.dropdown {
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
