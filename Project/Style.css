@@ -314,7 +314,10 @@ img{
 .console-games a{
   border-radius: 25px;
 }
-
+#form{
+  font-size: x-large;
+  color: #000;
+}
 .form-container{
   width: 30%;
   float: left;
@@ -333,7 +336,6 @@ img{
 .ProductInfoDiv{
   width: 80%;
   height: 100%;
-
   display: flex;
 }
 .ProductPicture{
