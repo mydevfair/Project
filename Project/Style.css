@@ -55,6 +55,7 @@ li.dropdown {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px #98ffc57c;
   z-index: 1;
+  text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .dropdown-content a {
   color: rgb(255, 255, 255);
@@ -98,6 +99,7 @@ h3 {
   min-height:100%;
   position:relative;
   background-color: white;
+  
 }
 #header {
   background:white;
@@ -122,6 +124,7 @@ footer {
   flex-direction: column;
   text-align: center;
   background-color: #5c5c5c;
+  text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .footer-content h3{
     font-size: 2.1rem;
@@ -135,6 +138,7 @@ footer {
     line-height: 28px;
     font-size: 14px;
     color: #cacdd2;
+    text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .footer-bottom{
   background: #000;
@@ -241,6 +245,7 @@ footer p{
   font-size: 80px;
   background-color: #5c5c5c;
   font-family: Oswald;
+  text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main-bottom{
   width: 100%;
