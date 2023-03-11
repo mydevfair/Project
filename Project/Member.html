@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">`
     <meta charset="UTF-8">
@@ -14,7 +15,7 @@
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Products</a>
             <div class="dropdown-content">
-              <a href="#">Playstation</a>
+              <a href="PsProducts.html">Playstation</a>
               <a href="#">Xbox</a>
               <a href="#">Nintendo</a>
             </div>
@@ -23,16 +24,20 @@
         <li><a href="Member.html">Members</a></li>
     </ul>
 
-    <br><img src="./Images/Members.png" alt="Error">
+    <img src="./Images/Logo.png" alt="Error">
+    <div class="form-container">
+        <h2>Members Login</h2>
+        <form id="frm1" action="Rewards.html" >
+            <br><label for="Uname">Enter Username:</label><br>
+            <input type="text" id="Uname" name="Uname" required>
+            <br><label for="Pword">Password:</label><br>
+            <input type="text" id="Pword" name="Pword" required><br>
+            <br><input type="submit" value="Enter" style="margin-left: 40%;">
+        </form>
+    </div>
 
-    <form id="frm1" action="Rewards.html" target="_blank">
-        <br><label for="Uname">Enter Username:</label><br>
-        <input type="text" id="Uname" name="Uname" required>
-        <br><label for="Pword">Password:</label><br>
-        <input type="text" id="Pword" name="Pword" required><br>
-        <br><input type="submit" value="Enter">
-    </form>
-    
+
+
     <footer>
         <div class="footer-content">
             <img src="./Images/Logo.png" alt="Error">
