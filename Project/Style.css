@@ -270,6 +270,7 @@ img{
   margin: 3%;
   justify-content: center;
   overflow: hidden
+  text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main-left iframe{
   min-width: 100%;
