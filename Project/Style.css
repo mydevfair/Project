@@ -392,3 +392,9 @@ img{
 .productWindow a{
   border-radius: 25px;
 }
+myDiv{
+  display: none;
+}
+.hidden{
+  display: none;
+}
